@@ -1,5 +1,5 @@
 markdown: redcarpet
-name: 18F Guides Template
+name: 18F Acquisitions
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -31,43 +31,27 @@ expand_nav: true
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
+- text: Welcome to 18F Acquisitions
   internal: true
-- text: Add a new page
-  url: add-a-new-page/
-  internal: true
-  children:
-  - text: Make a child page
-    url: make-a-child-page/
-    internal: true
-- text: Add images
-  url: add-images/
-  internal: true
-- text: Update the config file
-  url: update-the-config-file/
+- text: Last Week in 18F Acquisitions
+  url: last-week/
   internal: true
   children:
-  - text: Understanding the `baseurl:` property
-    url: understanding-baseurl/
+  - text: 2016-06-13
+    url: 2016-06-13/
     internal: true
-- text: GitHub setup
-  url: github-setup/
-  internal: true
-- text: Post your guide
-  url: post-your-guide/
-  internal: true
-- text: Advanced features
-  url: advanced-features/
-  internal: true
+- text: Agile BPA
+  url: https://pages.18f.gov/ads-bpa
+  internal: false
 
 repos:
-- name: Guides Template
+- name: 18F Acquisitions
   description: Main repository
-  url: https://github.com/18F/guides-template
+  url: https://github.com/18F/acquisitions
 
 back_link:
-  url: "https://pages.18f.gov/guides/"
-  text: Read more 18F Guides
+  url: "https://18f.gsa.gov"
+  text: More about 18F
 
 google_analytics_ua: UA-48605964-19
 
